@@ -1,0 +1,36 @@
+boby{
+    text-align: center;
+    background-color: seashell;
+}
+
+img{
+    width:300px;
+    height: 500px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    background-color:honeydew;
+    color: black;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:darksalmon;
+    color:brown;
+}
+
+.fan{
+    animation: movefan 2s infinite;
+    /* border-radius: 50px 50px 50px 50px; */
+}
+
+@keyframes movefan
+{
+    100%
+    {
+        transform: rotate(360deg);
+        /* transform-origin: top-center; */
+    }
+}
